@@ -1487,3 +1487,7 @@
   outline-color: #cc0000;
   background-color: #f2dede;
 }
+
+#api_selector {
+	visibility: hidden;
+}
