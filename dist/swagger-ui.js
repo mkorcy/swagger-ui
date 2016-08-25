@@ -3525,7 +3525,7 @@ SwaggerClient.prototype.build = function (mock) {
       },
       response: function (resp) {
 
-        var responseObj = resp.obj;
+        var responseObj = resp.obj[0];
         if(!responseObj) {
           return self.fail('failed to parse JSON/YAML response');
         }
